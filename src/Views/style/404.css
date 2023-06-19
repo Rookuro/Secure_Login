@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    background-color: #fff;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 2em;
+    color: #cc0000;
+    margin: 0.5em 0;
+}
+
+p {
+    margin: 1em 0;
+    font-size: 1.5em;
+    line-height: 1.5;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin: 0 30%;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 40%;
+}
